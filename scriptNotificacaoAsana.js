@@ -1,6 +1,6 @@
 var intervalCheckNotification = window.setInterval(function(){
     try{
-		var hasNotificationsAsana = document.getElementsByClassName("has-newNotifications");
+	var hasNotificationsAsana = document.getElementsByClassName("has-newNotifications");
         if(typeof(hasNotificationsAsana) !== "undefined" && hasNotificationsAsana !== null && hasNotificationsAsana.length){
             confirm("NOTIFICAÇÃO DE TASK ASANA");
         }
